@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: hsl(0, 0%, 100%);
+}
+
+:root {
+	--font-light: hsl(0, 0%, 100%);
+	--bg-light: url(./assets/bg-mobile-light.jpg) no-repeat center/cover;
+    --avatar: url(./assets/avatar.png);
+    --avatar-light: url(./assets/avatar-light.png);
+}
+
+.light-mode {
+	color: var(--font-light);
+	background: var(--bg-light);
+}
+
+.light-mode #avatar {
+    background-image: var(--avatar);
+}
+
+body {
+	background: url(./assets/bg-mobile.jpg) no-repeat center/cover;
+	font-family: "inter", sans-serif;
+	line-height: 16px;
+	width: 100%;
+	min-height: 100vh;
+}
+
+.container {
+	width: 360px;
+	margin: 56px auto 0;
+	padding: 0 24px;
+}
+
+.profile {
+	padding: 24px;
+	text-align: center;
+}
+
+.profile img {
+	width: 112px;
+	margin-bottom: 8px;
+	border-radius: 50%;
+}
+
+.profile a {
+	display: block;
+	text-decoration: none;
+	font-weight: 500;
+	line-height: 24px;
+}
+
+#avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+	background-image: var(--avatar-light);
+    width: 112px;
+    height: 112px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 24px auto;
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	list-style: none;
+	padding: 24px;
+	align-self: stretch;
+}
+
+ul li a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	padding: 16px 24px;
+	border-radius: 8px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(4px);
+	font-weight: 500;
+	transition: background 0.2s;
+}
+
+ul li a:hover {
+	border: 1.5px solid var(--font-light);
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.social-links {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 16px;
+	padding: 24px;
+}
+
+.social-links a {
+	padding: 16px;
+	border-radius: 50%;
+}
+
+.social-links a:hover {
+	background-color: #444;
+}
+
+.social-links a ion-icon {
+	font-size: 24px;
+}
+
+.social-links a ion-icon:hover {
+	border: none;
+}
+
+.switch {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 24px;
+}
+
+.switch-button {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	width: 64px;
+	height: 24px;
+	flex-shrink: 0;
+	border-radius: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(4px);
+	cursor: pointer;
+}
+
+.switch-button #switch {
+	display: inline-flex;
+	padding: 16px;
+	align-items: flex-start;
+	border-radius: 50%;
+	background: var(--font-light);
+
+	/* Switch-shadow */
+	box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+	background-image: url(./assets/sun.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	transition: all 0.5s;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 24px 0;
+}
+
+.light-mode p {
+	color: black;
+}
+
+.light-mode ul li a {
+	color: black;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.light-mode a:hover {
+	border: 1.5px solid #000;
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.light-mode #switch {
+	background-image: url(./assets/moon-stars.svg);
+	transition: all 0.5s;
+	transform: translateX(40px);
+}
+
+.light-mode .switch button {
+	background: rgba(0, 0, 0, 0.1);
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.light-mode .social-links a {
+	border: none;
+}
+
+.light-mode .social-links a ion-icon {
+	color: black;
+}
+
+.light-mode .social-links a ion-icon:hover {
+	border: none;
+	color: #555;
+}
+
+.light-mode ion-icon {
+	color: black;
+}
