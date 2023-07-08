@@ -10,8 +10,9 @@
 :root {
 	--font-light: hsl(0, 0%, 100%);
 	--bg-light: url(./assets/bg-mobile-light.jpg) no-repeat center/cover;
-    --avatar: url(./assets/avatar.png);
-    --avatar-light: url(./assets/avatar-light.png);
+	--bg: url(./assets/bg-mobile.jpg) no-repeat center/cover;
+	--avatar: url(./assets/avatar.png);
+	--avatar-light: url(./assets/avatar-light.png);
 }
 
 .light-mode {
@@ -20,11 +21,11 @@
 }
 
 .light-mode #avatar {
-    background-image: var(--avatar);
+	background-image: var(--avatar);
 }
 
 body {
-	background: url(./assets/bg-mobile.jpg) no-repeat center/cover;
+	background: var(--bg);
 	font-family: "inter", sans-serif;
 	line-height: 16px;
 	width: 100%;
@@ -56,17 +57,17 @@ body {
 }
 
 #avatar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
 	background-image: var(--avatar-light);
-    width: 112px;
-    height: 112px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 24px auto;
+	width: 112px;
+	height: 112px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 24px auto;
 }
 
 ul {
@@ -206,4 +207,11 @@ footer {
 
 .light-mode ion-icon {
 	color: black;
+}
+
+@media (min-width: 768px) {
+	:root {
+		--bg-light: url(./assets/bg-desktop-light.jpg) no-repeat center/cover;
+		--bg: url(./assets/bg-desktop.jpg) no-repeat center/cover;
+	}
 }
