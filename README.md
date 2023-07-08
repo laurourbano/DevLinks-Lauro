@@ -2,6 +2,8 @@
 
 Projeto realizado para treinar conhecimentos em html, css e javascript durante o curso DISCOVERY da Rocketseat 2023.
 
+Deploy realizado com githubpages e pode ser acessado no link: <a href="https://laurourbano.github.io/DevLinks-Lauro">Clique aqui</a>
+
 Desafio usando html e css puro, juntamente com o javascript vanilla.
 
 Projeto básico para verificar meus conhecimentos.
