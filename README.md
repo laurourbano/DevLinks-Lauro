@@ -1,21 +1,32 @@
 # discovery
 
-Projeto realizado para treinar conhecimentos em html, css e javascript durante o curso DISCOVERY da Rocketseat 2023.
+Este é um projeto realizado durante o curso DISCOVERY da Rocketseat em 2023, com o objetivo de treinar conhecimentos em HTML, CSS e JavaScript.
 
-Deploy realizado com githubpages e pode ser acessado no link: <a href="https://laurourbano.github.io/DevLinks-Lauro" target="_blank">Clique aqui</a>
+O deploy do projeto foi realizado utilizando o GitHub Pages e pode ser acessado no link: [Clique aqui](https://laurourbano.github.io/DevLinks-Lauro).
 
-Desafio usando html e css puro, juntamente com o javascript vanilla.
+O projeto é um desafio que utiliza HTML e CSS puro, juntamente com JavaScript vanilla. É uma aplicação básica criada para verificar e aprimorar os conhecimentos.
 
-Projeto básico para verificar meus conhecimentos.
+## Tecnologias Utilizadas
 
-Tecnologias utilizadas:
+As principais tecnologias utilizadas neste projeto são:
 
-![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![image](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+- HTML5
+- CSS3
+- JavaScript
+- GitHub
 
-<br/>
+## Screenshot
 
 ![image](https://github.com/laurourbano/DevLinks-Lauro/assets/74082012/58e5c7bd-56a4-4d0f-ae6f-31c24b489bd1)
+
+## Como Executar o Projeto
+
+Para executar o projeto, basta acessar o link fornecido acima e a página será carregada em seu navegador.
+
+## Contribuindo
+
+Se você deseja contribuir com o projeto, fique à vontade para abrir uma "pull request" com suas melhorias ou correções.
+
+## Contato
+
+Caso queira entrar em contato ou conhecer mais projetos, você pode me encontrar no [GitHub](https://github.com/laurourbano).
